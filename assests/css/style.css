@@ -1,5 +1,5 @@
 .banner {
-    background-color: lightgray;
+    background-color: rgba(255, 255, 255, 0.75);
     margin: 0px;
     height: 80px;
     position: fixed;
@@ -34,7 +34,12 @@ h1 {
     font-size: 2em;
 }
 h2 {
+    text-align: left;
     font-size: 2.2em;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid salmon;
+    margin-bottom: 15px;
 }
 .name {
     position: absolute;
