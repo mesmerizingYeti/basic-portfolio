@@ -13,8 +13,9 @@ header {
 footer {
     border-top: 3px solid black;
     bottom: 0;
-    padding-top: 10px;
-    text-align: center;
+    padding-top: 30px;
+    padding-right: 30px;
+    text-align: right;
 }
 section {
     margin-left: 20%;
@@ -23,6 +24,7 @@ section {
     background-color: rgba(245, 245, 245, 0.4);
     border: 2px salmon solid;
     border-radius: 16px;
+    overflow: auto;
 }
 body {
     background-image: url("../images/9eafa10d.png");
@@ -46,9 +48,9 @@ h2 {
     position: absolute;
     left: 20%;
     width: 245px;
-    top: 34px;
+    top: 33px;
     padding: 5px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 10px 10px 0px 0px;
     background-color: rgb(197, 127, 119);
     color: white;
@@ -71,6 +73,25 @@ h2 {
     width: 97%;
     height: 25px;
 }
+.portfolioPics {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 10px;
+    float: left;
+    background-size: cover;
+}
+.portfolioText {
+    text-align: center;
+    position: relative;
+    top: 65%;
+    color: white;
+    background-color: rgb(197, 127, 119);
+    padding: 5px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
 #profilePic {
     height: 150px;
     width: 200px;
@@ -84,4 +105,22 @@ h2 {
 #submit {
     display: block;
     margin-top: 5px;
+}
+#firstWheel {
+    background-image: url("../images/FirstWheel.jpg");
+}
+#christopher {
+    background-image: url("../images/Christopher.jpg");
+}
+#declaration {
+    background-image: url("../images/Declaration.jpg");
+}
+#moon {
+    background-image: url("../images/MoonLanding.jpg");
+}
+#johnny5 {
+    background-image: url("../images/Johnny5.jpg");
+}
+#skynet {
+    background-image: url("../images/Skynet.jpg");
 }
