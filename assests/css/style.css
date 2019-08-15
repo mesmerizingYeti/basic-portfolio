@@ -36,6 +36,7 @@ h1 {
 h2 {
     text-align: left;
     font-size: 2.2em;
+    font-weight: bold;
     padding-top: 5px;
     padding-bottom: 15px;
     border-bottom: 2px solid salmon;
@@ -65,9 +66,22 @@ h2 {
 .contact {
     padding: 5px;
 }
+.inputs {
+    margin: 5px;
+    width: 97%;
+    height: 25px;
+}
 #profilePic {
     height: 150px;
     width: 200px;
     float: left;
     margin-right: 10px;
+}
+#message {
+    margin: 5px;
+    width: 97%;
+}
+#submit {
+    display: block;
+    margin-top: 5px;
 }
