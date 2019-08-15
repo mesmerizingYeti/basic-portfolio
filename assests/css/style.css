@@ -19,12 +19,16 @@ footer {
 section {
     margin-left: 20%;
     margin-right: 20%;
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.4);
+    border: 2px salmon solid;
+    border-radius: 16px;
 }
 body {
     background-image: url("../images/9eafa10d.png");
     margin: 0;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 h1 {
     font-size: 2em;
@@ -39,12 +43,13 @@ h2 {
     top: 34px;
     padding: 5px;
     border: 1px solid black;
-    background-color: rgb(177, 101, 101);
-    color: lightgray;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(197, 127, 119);
+    color: white;
 }
 .linksContainer {
     position: absolute;
-    right: 0;
+    right: 20%;
     top: 34px;
     padding: 20px;
 }
@@ -58,7 +63,6 @@ h2 {
 #profilePic {
     height: 150px;
     width: 200px;
-}
-#aboutText {
-    float: right;
+    float: left;
+    margin-right: 10px;
 }
