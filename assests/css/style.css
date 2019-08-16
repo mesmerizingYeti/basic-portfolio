@@ -118,6 +118,7 @@ h2 {
 #submit {
     display: block;
     margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
 }
 #firstWheel {
     background-image: url("../images/FirstWheel.jpg");
