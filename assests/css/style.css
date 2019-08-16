@@ -86,9 +86,11 @@ h2 {
     float: left;
     background-size: cover;
 }
-.portfolioText {
+.portfolioLinks {
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
     text-align: center;
+    display: block;
     position: relative;
     top: 65%;
     color: white;
